@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <center>
+        <h4>CALCULATOR</h4>
+
+        <div class="screen">
+            <div class="mainscreen">
+                <input id="calc" type="text" placeholder="0.00">
+            </div>
+        </div>
+
+        <div>
+            <table border="1"" height=" 100px" style="background-color: blue;">
+                <tr>
+                    <td class="cell">
+                        <button onclick="button(7)" class="buti">7</button>
+                        </td>
+                    <td class="cell">
+                        <button onclick="button(8)" class="buti">8</button>
+                    </td>
+                    <td class="cell">
+                        <button onclick="button(9)" class="buti">9</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cell">
+                        <button onclick="button(4)" class="buti">4</button>
+                    </td>
+                    <td class="cell">
+                        <button onclick="button(5)" class="buti">5</button>
+                    </td>
+                    <td class="cell">
+                        <button onclick="button(6)" class="buti">6</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cell">
+                        <button onclick="button(1)" class="buti">1</button>
+                    </td>
+                    <td class="cell">
+                        <button onclick="button(2)" class="buti">2</button>
+                    </td>
+                    <td class="cell">
+                        <button onclick="button(3)" class="buti">3</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cell">
+                        <button onclick="button(0)" class="buti">0</button>
+                    </td>
+                    <td class="cell" colspan="2">
+                        <button onclick="button('+')" class="butii">+</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cell">
+                        <button onclick="remove('')" class="buti">C</button>
+                    </td>
+                    <td class="cell" colspan="2">
+                        <button onclick="answer()" class="butii">=</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </center>
+
+<script src="calc.js"></script>
+</body>
+
+</html>

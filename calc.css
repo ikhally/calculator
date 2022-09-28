@@ -1,0 +1,29 @@
+.buti{
+    background-color: white;
+    border-radius: 20px;
+
+}
+.butii{
+    width: 55px;
+    background-color: white;
+    border-radius: 20px;
+}
+.cell{
+    background-color: white;
+}
+.screen{
+    border: solid thin black;
+    height: 40px;
+    width:  95px;
+    background-color: black;
+    border-radius: 2px;
+}
+.mainscreen{
+    /* height: 20px;
+    width:  2px;
+    margin-left: -50px; */
+}
+input{
+    width: 92%;
+    margin-top: 8px;
+}
